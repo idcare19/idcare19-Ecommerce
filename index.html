@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="image-removebg-preview.png" type="image/x-icon">
     <title>Idcare19 - Modern E-commerce</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
@@ -39,18 +40,22 @@
         .header-content {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            /* align-items: center; */
             padding: 1rem 0;
         }
         
         .logo img{
-            width: 40%;
+            width: 200px;
+            
         }
-        
+        .logo-respon img{
+            display: none;
+        }
         nav ul {
             display: flex;
             list-style: none;
             gap: 2rem;
+         
         }
         
         nav a {
@@ -309,7 +314,13 @@
                 flex-direction: row;
                 gap: 10px;
             }
-            
+            .logo img{
+              display: none;
+            }
+            .logo-respon img{
+               display:flex;
+               width: 30px;
+            }
             nav ul {
                 gap: 10px;
             }
@@ -350,6 +361,7 @@
         <div class="container">
             <div class="logo"><img src="image-removebg-preview (1).png" alt=""></div>
             <div class="header-content">
+            <div class="logo-respon"><img src="image-removebg-preview.png" alt=""></div>
                 
                 <nav>
                     <ul>
